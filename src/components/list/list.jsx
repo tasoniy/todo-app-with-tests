@@ -27,7 +27,7 @@ const List = () => {
     const getDoneTodo = () => {
         let count = 0;
         elements.forEach(item => item.checked && count++)
-        document.querySelector('button').innerHTML = `<span>You done ${count} todos</span>`
+        document.querySelector('button').innerHTML = `<span data-testid = 'done-count'>You done ${count} todos</span>`
     }
 
     return (

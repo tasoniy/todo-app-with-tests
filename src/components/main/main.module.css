@@ -6,11 +6,13 @@
 
 .container {
     max-width: 1256px;
-    margin: 10px auto;
+    margin: 0 auto;
+    padding: 20px;
 }
 
 .title {
     color: rgb(109, 75, 114);
+    margin: 0;
 }
 
 .greet {
@@ -18,4 +20,14 @@
     font-size: 24px;
     font-weight: 700;
     color: rgb(58, 29, 81);
+}
+
+header {
+    background-color:rgb(92, 73, 110);
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 255, 255);
 }

@@ -3,7 +3,7 @@ import style from "./button.module.css"
 
 
 const Button = ({ clickBtn }) => (
-    <button className={style.button} onClick={clickBtn}>
+    <button data-testid='todo-done' className={style.button} onClick={clickBtn}>
       Click me
     </button>
   )
