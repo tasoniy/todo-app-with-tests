@@ -1,0 +1,17 @@
+.button {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+    margin: 10px 80px;
+    background-color: rgb(110, 70, 124);
+    border-radius: 5px;
+    border: 2px solid rgb(110, 70, 124);
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: inherit;
+    color: rgb(110, 70, 124);
+}

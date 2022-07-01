@@ -1,0 +1,21 @@
+.main {
+    height:100vh;
+    text-align: center;
+    background-color: #acacdc;
+}
+
+.container {
+    max-width: 1256px;
+    margin: 10px auto;
+}
+
+.title {
+    color: rgb(109, 75, 114);
+}
+
+.greet {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(58, 29, 81);
+}

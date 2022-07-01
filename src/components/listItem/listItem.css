@@ -1,0 +1,17 @@
+.listItem {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(50, 94, 160);
+    margin: 15px 20px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+
+.input {
+    cursor: pointer;
+}

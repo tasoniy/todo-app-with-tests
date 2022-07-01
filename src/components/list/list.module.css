@@ -1,0 +1,12 @@
+.card {
+    background-color: rgb(226, 197, 226);
+    width: 300px;
+    box-shadow: 2px 5px 4px rgb(128, 104, 128);
+    margin: 10px auto;
+}
+
+.list {
+    text-align: left;
+    list-style: none;
+    padding: 0;
+}
